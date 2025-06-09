@@ -1,0 +1,60 @@
+/* BookList.css */
+
+.container {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f6f6f6;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.info {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.noImage {
+  width: 100%;
+  height: 300px;
+  background-color: #ed0faf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}

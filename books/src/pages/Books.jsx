@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './BookList.css'; // Importing CSS for styling
+import '../css/BookList.css'; // Importing CSS for styling
 import axios from 'axios';
 
 // BookList component to fetch and display a list of books from Open Library API
@@ -26,7 +26,7 @@ const BookList = () => {
     fetchBooks();
   }, []);
 
-// Render the book list or loading/error messages
+// Render la lista de libros mensaje de carga o error
   return (
     <div className="container">
       <h1 className="title">Book Explorer</h1>
